@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-gray-950">
+    <div>
+        <nav>
+            <ul class="font-blac text-white max-h-10 px-20 py-10 text-3xl">
+                IMDb
+            </ul>
+        </nav>
+    </div>
+    <div class="bg-slate-600 h-40 w-auto ">
+        <p class="text-white text-2xl text-center py-10 px-100 flex justify-center">Search Movie: 
+            <label class="relative block space-x-2">
+                <span class="sr-only">Search</span>
+                <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                  <svg class="h-5 w-5 fill-slate-300" viewBox="0 0 20 20"><!-- ... --></svg>
+                </span>
+                <input class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Search for Movie" type="text" name="search"/>
+              </label>
+        </p>
+    </div>
+</body>
+</html>
